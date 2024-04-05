@@ -82,7 +82,18 @@
         <version.com.azure.azure-data-schemaregistry-apacheavro>1.1.14</version.com.azure.azure-data-schemaregistry-apacheavro>
         <version.com.microsoft.azure.azure-schemaregistry-kafka-avro>1.1.1</version.com.microsoft.azure.azure-schemaregistry-kafka-avro>
     </properties>
-
+    <distributionManagement>
+        <repository>
+            <id>ri-karavan</id>
+            <name>provider-release</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </repository>
+        <snapshotRepository>
+            <id>ri-karavan</id>
+            <name>provider-snapshot</name>
+            <url>https://repo.croc.ru:443/artifactory/RocInt</url>
+        </snapshotRepository>
+    </distributionManagement>
     <developers>
         <developer>
             <name>The Apache Camel Team</name>
